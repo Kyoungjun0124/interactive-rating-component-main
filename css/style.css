@@ -2,3 +2,13 @@ body {
   padding: 0px 0px;
   margin: 0px 0px;
 }
+.box {
+  padding: 30px;
+  border-radius: 30px;
+  width: 320px;
+  height: 500px;
+  background-color: rgb(31, 41, 55);
+  color: rgb(71, 78, 87);
+  display: flex;
+  justify-content: center;
+}
