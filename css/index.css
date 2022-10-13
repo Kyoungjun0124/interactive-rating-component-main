@@ -1,0 +1,41 @@
+.box__star-img {
+  padding: 20px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+.text-box {
+  margin-top: 20px;
+}
+.btn-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.btn-box__btn {
+  padding: 16px 22px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  color: rgb(160, 159, 172);
+}
+.btn-box__btn:hover {
+  background-color: var(--bg-orange);
+  color: white;
+}
+.submit-btn {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 10px 0px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s ease-in-out;
+  margin-top: 30px;
+}
+.submit-btn:hover {
+  color: var(--bg-orange);
+  background-color: white;
+}

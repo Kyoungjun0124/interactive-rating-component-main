@@ -1,14 +1,33 @@
+@import "index.css";
+
+:root {
+  --bg-orange: #fb7815;
+}
 body {
   padding: 0px 0px;
   margin: 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.bold-text {
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+}
+.bg-gray {
+  background-color: rgb(38, 47, 56);
+}
+.bg-orange {
+  background-color: var(--bg-orange);
 }
 .box {
   padding: 30px;
   border-radius: 30px;
-  width: 320px;
-  height: 500px;
+  width: 340px;
+  /* height: 400px; */
   background-color: rgb(31, 41, 55);
-  color: rgb(71, 78, 87);
-  display: flex;
-  justify-content: center;
+  color: rgb(160, 159, 172);
 }
